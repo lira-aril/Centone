@@ -145,6 +145,11 @@ svg {
 .blue {
     background-color: blue;
 }
+.blue:hover, .tan:hover {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
 .tan {
     background-color: tan;
 }
@@ -168,7 +173,7 @@ svg {
     color: white;
 }
 .basket > button:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 .detail-description {
     position: relative;
@@ -213,6 +218,9 @@ svg {
 .e-mail > input {
     width: 400px;
     height: 42px;
+}
+.e-mail > button {
+    border: none;
 }
 .footer {
     height: 400px;
