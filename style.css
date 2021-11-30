@@ -41,13 +41,16 @@ a {
     background-color:  rgb(247, 244, 244);
 }
 svg {
+    height: 30px;
+    width: 30px;
+    transition: width 2s, height 2s;
+}
+svg:hover {
     height: 40px;
-    width: 40px;
+    width: 40px;  
 }
 .menu-icons-list {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
   }
 .menu-icons-list-first {
@@ -192,6 +195,9 @@ svg {
 }
 .category-2-box > a {
     padding-left: 25px;
+}
+.category-2-box > a > img {
+    transition: opacity 1s;
 }
 .category-2-box > a > img:hover {
     opacity: 0.5;
