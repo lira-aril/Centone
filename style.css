@@ -32,6 +32,7 @@ a {
     height: 50px;
     width: 300px;
     outline: none;
+    padding-left: 10px;
     background-color: rgb(247, 244, 244);
 }
 .search > button {
@@ -40,12 +41,16 @@ a {
     outline: none;
     background-color:  rgb(247, 244, 244);
 }
-svg {
+.menu-icons 
+.menu-icons-list
+.menu-icons-list-first  svg {
     height: 30px;
     width: 30px;
-    transition: width 2s, height 2s;
+    transition: width 1s, height 1s;
 }
-svg:hover {
+.menu-icons 
+.menu-icons-list
+.menu-icons-list-first svg:hover {
     height: 40px;
     width: 40px;  
 }
@@ -195,7 +200,7 @@ svg:hover {
     height: 400px;
 }
 .category-2-box > a {
-    padding-left: 25px;
+    padding-left: 50px;
 }
 .category-2-box > a > img {
     transition: opacity 1s;
@@ -225,9 +230,14 @@ svg:hover {
 .e-mail > input {
     width: 400px;
     height: 42px;
+    padding-left: 10px;
 }
 .e-mail > button {
     border: none;
+}
+.e-mail button svg {
+    height: 40px;
+    width: 40px;
 }
 .footer {
     height: 400px;
@@ -276,12 +286,7 @@ svg:hover {
     .good {
         width: 400px;
     }
-    .search > input {
-        height: 30px;
-        width: 150px;
-    }
-    .search > button {
-        height: 30px;
-        width: 30px;
+    .logo {
+        grid-row: 1 / 2;
     }
 }
